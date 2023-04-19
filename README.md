@@ -1,5 +1,5 @@
 
-https://gozdebarin-heart-attack-prediction-app-app-5sjsuk.streamlit.app/
+#### App Website: https://gozdebarin-heart-attack-prediction-app-app-5sjsuk.streamlit.app/
 
 <img width="1169" alt="Screen Shot 2023-04-19 at 4 20 20 PM" src="https://user-images.githubusercontent.com/90986708/233104740-08d51534-bc6f-4709-9816-9dd8e9804b5b.png">
 
