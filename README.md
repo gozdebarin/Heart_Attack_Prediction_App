@@ -1,8 +1,8 @@
 
 ### Heart Attack Prediction App
-I developed this App as a part of the graduation project for the Data Science Bootcamp at WBS Coding School.
+This machine learning project aims to identify people's heart attack risk, based on their medical attributes.
 
-The App predicts the heart attack risk for people, based on their medical attributes.
+The goal of the Web-App is to help healthcare providers calculate heart attack risk.
 
 #### App Website: https://gozdebarin-heart-attack-prediction-app-app-5sjsuk.streamlit.app/
 
