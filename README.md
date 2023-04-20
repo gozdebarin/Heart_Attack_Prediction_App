@@ -1,8 +1,6 @@
 
 ### Heart Attack Prediction App
-This machine learning project aims to identify people's heart attack risk, based on their medical attributes.
-
-The goal of the Web-App is to help healthcare providers calculate heart attack risk.
+This machine learning project aims to identify people's heart attack risk based on their medical attributes and to help healthcare providers.
 
 #### App Website: https://gozdebarin-heart-attack-prediction-app-app-5sjsuk.streamlit.app/
 
