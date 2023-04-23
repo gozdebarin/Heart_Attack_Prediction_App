@@ -61,7 +61,7 @@ with st.sidebar:
         orientation="vertical",
                            styles={
         "container": {"padding": "5!important", "background-color": "#FFFFFF"},
-        "icon": {"color": "black", "font-size": "25px"}, 
+        "icon": {"color": "black", "font-size": "23px"}, 
         "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
         "nav-link-selected": {"background-color": "#CE5959"},
     }
@@ -81,7 +81,7 @@ if selected == 'App':
         col1, col2 = st.columns(2)
         with col1:
             st.title("Heart Attack Prediction App")
-            st.caption("This Web-App aims to identify the heart attack risk for people, based on their medical attributes.")
+            st.caption("This Web-App aims to identify the heart attack risk for people, based on their medical attributes to help **healthcare providers**.")
             st.write("---")
         with col2:
             st.image(img_info4)
@@ -102,7 +102,7 @@ if selected == 'App':
 
         #Getting the input data from the user
         st.subheader('Please fill in the details and click on the button below.')
-        age=st.selectbox ("Age",range(1,121,1))
+        age=st.selectbox ("Age",range(18,121,1))
         sex = st.radio("Gender", ('Male', 'Female'))
         cp = st.selectbox('Chest Pain Type',("Typical angina","Atypical angina","Non-anginal pain","Asymptomatic")) 
         trestbps=st.selectbox('Resting Blood Pressure',range(1,500,1))
@@ -255,7 +255,7 @@ if selected == 'Contact':
             st.write('')
             st.write('')
             st.write('<p style="font-size:22px; color:grey;">Connect with me:</p>', unsafe_allow_html=True)
-            st.write("[Personal Website](https://gozdebarin-personal-website-app-g4y6aw.streamlit.app/) | [LinkedIn](https://www.linkedin.com/in/gozdebarin/) | [Github](https://github.com/gozdebarin) | [Tableau](https://public.tableau.com/app/profile/gozdebarin) | [Medium](https://medium.com/@gozdebarin)")
+            st.write("[My Portfolio Projects](https://gozdebarin-personal-website-app-g4y6aw.streamlit.app/) | [LinkedIn](https://www.linkedin.com/in/gozdebarin/) | [Github](https://github.com/gozdebarin) | [Tableau](https://public.tableau.com/app/profile/gozdebarin) | [Medium](https://medium.com/@gozdebarin)")
         
         with left_column:
             st_lottie(anim_1, height=220, key="coding")
